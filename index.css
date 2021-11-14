@@ -1,0 +1,126 @@
+/* importing fonts */
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+html body {
+    background-color: #fff8f0;
+}
+
+/* background color + site margin */
+html {
+  background-color: #fff8f0;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* name */
+.name {
+  color: #9e7777;
+  background-color: #F9E4C8;
+  height: 100px;
+  width: 650px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 75px;
+  font-family: 'Source Sans Pro';
+  border-radius: 10px;
+}
+
+/* div: abt-me */
+.abt-me {
+  width: 650px;
+  height: 300px;
+  display: flex;
+  margin: auto;
+  margin-bottom: 60px;
+}
+
+/* abt-me picture */
+.photo {
+  border-color: #87AAAA;
+  float: left;
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+/* abt-me text */
+.bio {
+  font-family: 'Source Sans Pro';
+  color: #9e7777;
+  margin: auto;
+  height: 300px;
+  width: 300px;
+  float: right;
+  font-size: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* nav: buttons */
+.buttons {
+  height: 100px;
+  width: 650px;
+  margin: auto;
+  font-family: 'Source Sans Pro';
+  font-size: 20px;
+  color: #9e7777;
+  align-items: center;
+}
+
+/* individual button design */
+button {
+  font-family: 'Source Sans Pro';
+  font-size: 20px;
+  color: #9e7777;
+  height: 60px;
+  width: 323px;
+  border: 2px solid #F9E4C8;
+  background-color: #F9E4C8;
+  border-radius: 10px;
+}
+
+/* individual button design + hover */
+button:hover {
+  font-family: 'Source Sans Pro';
+  font-size: 20px;
+  color: #785959;
+  height: 60px;
+  width: 323px;
+  cursor: pointer;
+  border: 3px solid #f0cea1;
+  background-color: #f0cea1;
+  border-radius: 10px;
+  box-shadow: 2px 2px #c7b8a5;
+}
+
+/* adding padding to buttons */
+.adding-padding {
+  font-size: 30px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+
+/* footer -- contact info */
+.contact-info {
+  font-size: 20px;
+  text-align: center;
+  color: #9e7777;
+  background-color: #F9E4C8;
+  width: 650px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin: auto;
+  margin-bottom: 10px;
+  font-family: 'Source Sans Pro';
+  border-radius: 10px;
+}
